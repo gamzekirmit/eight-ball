@@ -8,10 +8,24 @@ body {
    
 }
 
-.container{
+.ball{
     text-align: center;
+    
+}
+
+#eightball {
+    border: none;
+    background: none;
 }
 
 #text{
-    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }

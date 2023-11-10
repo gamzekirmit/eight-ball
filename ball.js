@@ -1,17 +1,14 @@
 
-        let userName = prompt("What is your name");
-        const welcomeText = userName ? `Hello, ${userName}!`: `Hello!`;
-        const welcomeElement = document.getElementById("text");
-        welcomeElement.style.background="#ffffff";
-        welcomeElement.innerText = `${welcomeText} What is my future?`;
-       
+let userName = prompt("What is your name");
+const welcomeText = userName ? `Hello, ${userName}!` : `Hello!`;
+const welcomeElement = document.getElementById("text");
+welcomeElement.style.background = "#ffffff";
+welcomeElement.innerText = `${welcomeText} What is your future?`;
 
-        const el = document.querySelectorAll(".text");
-        el.innerText="fdhkfdf";
-        console.log(el);
 
-    
-    function askEightBall() {
+
+
+function askEightBall() {
     const randomNumber = Math.floor(Math.random() * 8);
     let eightBall = ""
 
@@ -33,7 +30,7 @@
         eightBall = 'Signs point to yes';
     } else {
         eightBall = 'undefined';
-    } 
+    }
     const resultElement = document.getElementById("result");
     resultElement.innerText = `${randomNumber} - ${eightBall}`;
 }
