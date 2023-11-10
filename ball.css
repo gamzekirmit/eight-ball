@@ -3,7 +3,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 300px;
+    min-height: 100vh;
+    height: 100vh;
    
 }
 
